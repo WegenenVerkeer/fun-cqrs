@@ -5,7 +5,7 @@ name := "fun-cqrs"
 organization in ThisBuild := "io.strongtyped"
 scalaVersion in ThisBuild := "2.11.11"
 
-crossScalaVersions in ThisBuild := Seq("2.11.11", "2.12.3")
+crossScalaVersions in ThisBuild := Seq("2.11.11", "2.12.3", "2.13.1")
 
 ivyScala := ivyScala.value map {
   _.copy(overrideScalaVersion = true)
