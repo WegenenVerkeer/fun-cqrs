@@ -19,7 +19,7 @@ object Dependencies {
   //------------------------------------------------------------------------------------------------------------
   // Akka Module
   val akkaDeps = {
-    val akkaVersion = "2.5.27"
+    val akkaVersion = "2.6.5"
 
     Seq(
       "com.typesafe.akka" %% "akka-actor"       % akkaVersion,

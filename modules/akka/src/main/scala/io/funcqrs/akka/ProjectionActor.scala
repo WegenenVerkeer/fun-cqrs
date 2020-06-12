@@ -35,7 +35,7 @@ abstract class ProjectionActor[O, E](
     with ActorLogging {
 
   implicit val timeout = Timeout(5 seconds)
-  implicit val mat     = ActorMaterializer()
+  implicit val actorSystem     = context.system
 
   import context.dispatcher
 
